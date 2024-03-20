@@ -1,0 +1,66 @@
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+  font-size:50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-container {
+  background-color:gainsboro;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.caja {
+  background-color: white;
+  color: crimson;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 150px;
+  height: 150px;
+  line-height: 120px;
+  text-align: center;
+  margin: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0.5, 0.5, 0.5);
+}
+
+.c1 {
+  background-color:pink;
+  order: 1;
+  flex-grow: 1;
+}
+
+.c2 {
+  background-color:peru;
+  order: 2;
+  flex-grow: 1;
+}
+
+.c3 {
+  background-color: peachpuff;
+  order: 3;
+  flex-grow: 1;
+}
+
+
+.c4 {
+  background-color:plum;
+  order: 4;
+  flex-grow: 1;
+}
+
+.c5 {
+  background-color: palevioletred;
+  order: 5;
+  flex-grow: 1;
+}
